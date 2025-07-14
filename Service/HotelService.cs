@@ -25,6 +25,7 @@ namespace HRBS.Service
                 ErrorMessage = ex.Message;
             }
             return new ResponseDto(false, ErrorMessage);
+
         }
     }
 }
