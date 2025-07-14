@@ -1,0 +1,6 @@
+@HRBS_HostAddress = http://localhost:5155
+
+GET {{HRBS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
